@@ -40,6 +40,7 @@ function getInfo() {
 
 function insertInfo() {
     getInfo();
+    $(one).css("color","yellow");
     var message = "<p> I got " + one + " calling a young " + two + " phone. <br> Where's Ali with the " + three + "?" + " <br> I be ballin' like a " + four +
                  " <br> I be ballin' like " + five + " <br> Sheck Wes, I ain't a " + six + " (haha, hahahahaha)" + " <br> Steph Wes stay with the " + seven + "(pa, pa, pa-pa)" +
                 " <br> You " + eight + "and get poled (you get poled)" + " <br> Cause I got " + nine + "(so many" + nine + " )" + " <br> Callin' a " + ten + "phone <br> (Ring-ring, ring, ring-ring, ring, ring-ring)"
