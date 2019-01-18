@@ -6,11 +6,13 @@ h1{
     display: none;
 }
 #title{
+    color: red;
     position: relative;
-    -ms-transform: rotate(10deg);
-    -webkit-transform: rotate(7deg);
-    transform: rotate(7deg);
+    -ms-transform: rotate(7deg);
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
     font-size: 20px;
+    font-family: 'Luckiest Guy', cursive;
 }
 #header{
     background-color:rgb(149, 218, 212);
@@ -53,8 +55,16 @@ footer{
     box-shadow: 2px 2px 2px  white;
     display: none;
 }
-img{
+#mo{
     position: absolute;
     margin-left:20%; 
     height: 400px;
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+#sheck{
+    margin-left: 5px; 
+    position: absolute;
+
 }
